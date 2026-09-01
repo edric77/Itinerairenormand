@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Twisto Caen la Mer — Musée ouvert</title>
+<style>
+  :root{
+    --bg:#f7f5f0;
+    --ink:#1c1c1a;
+    --muted:#5a564d;
+    --accent:#0a5c46;
+    --accent-2:#c96a2e;
+    --card:#ffffff;
+    --line:#e3ddd0;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#14140f;
+      --ink:#f2efe6;
+      --muted:#b8b3a4;
+      --accent:#5fd3ab;
+      --accent-2:#e8935c;
+      --card:#1e1e17;
+      --line:#333026;
+    }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+    line-height:1.6;
+  }
+  header{
+    padding:4rem 1.5rem 3rem;
+    text-align:center;
+    border-bottom:1px solid var(--line);
+  }
+  header .kicker{
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    text-transform:uppercase;
+    letter-spacing:.14em;
+    font-size:.75rem;
+    color:var(--accent);
+    font-weight:700;
+  }
+  header h1{
+    font-size:2.4rem;
+    margin:.6rem 0 .8rem;
+    max-width:36rem;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  header p{
+    max-width:38rem;
+    margin:0 auto;
+    color:var(--muted);
+    font-size:1.1rem;
+  }
+  main{
+    max-width:52rem;
+    margin:0 auto;
+    padding:3rem 1.5rem 5rem;
+  }
+  section{margin-bottom:3.5rem}
+  h2{
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size:1.5rem;
+    border-left:4px solid var(--accent);
+    padding-left:.75rem;
+  }
+  .concept-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(220px,1fr));
+    gap:1.2rem;
+    margin-top:1.5rem;
+  }
+  .concept-card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:1.4rem;
+  }
+  .concept-card .icon{font-size:1.6rem}
+  .concept-card h3{
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size:1rem;
+    margin:.6rem 0 .4rem;
+  }
+  .concept-card p{color:var(--muted); font-size:.95rem; margin:0}
+  .pitch{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:1.8rem 2rem;
+    font-size:1.15rem;
+    font-style:italic;
+    color:var(--ink);
+    border-left:5px solid var(--accent-2);
+  }
+  .chapters{
+    display:grid;
+    gap:1.2rem;
+    margin-top:1.8rem;
+  }
+  .chapter{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:1.6rem 1.8rem;
+  }
+  .chapter .era{
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    font-size:.72rem;
+    color:var(--accent-2);
+    font-weight:700;
+  }
+  .chapter h3{margin:.3rem 0 .5rem; font-size:1.25rem}
+  .chapter p{color:var(--muted); margin:.4rem 0}
+  .chapter ul{color:var(--muted); margin:.6rem 0 0; padding-left:1.2rem}
+  table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:1.5rem;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size:.9rem;
+  }
+  th, td{
+    text-align:left;
+    padding:.7rem .6rem;
+    border-bottom:1px solid var(--line);
+  }
+  th{color:var(--muted); font-weight:600}
+  .note{
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size:.85rem;
+    color:var(--muted);
+    background:var(--card);
+    border:1px dashed var(--line);
+    border-radius:10px;
+    padding:1rem 1.2rem;
+    margin-top:1.5rem;
+  }
+  footer{
+    text-align:center;
+    padding:2.5rem 1.5rem;
+    color:var(--muted);
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size:.85rem;
+    border-top:1px solid var(--line);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="kicker">Twisto Caen la Mer</div>
+  <h1>Les arrêts de bus transformés en musée ouvert</h1>
+  <p>Chaque ligne raconte une histoire. Le trajet devient un fil narratif : audioguide à bord, balade et points d'intérêt microtouristiques à pied.</p>
+</header>
+
+<main>
+
+  <section>
+    <h2>Le concept</h2>
+    <div class="concept-grid">
+      <div class="concept-card">
+        <div class="icon">🚏</div>
+        <h3>Arrêt = départ de balade</h3>
+        <p>Chaque arrêt de bus devient le point de départ d'une découverte du quartier traversé.</p>
+      </div>
+      <div class="concept-card">
+        <div class="icon">🎧</div>
+        <h3>Dans le bus : l'audioguide</h3>
+        <p>Un récit thématique accompagne le trajet, arrêt après arrêt, entre deux stations.</p>
+      </div>
+      <div class="concept-card">
+        <div class="icon">🧭</div>
+        <h3>En dehors : la balade</h3>
+        <p>À pied, on prolonge l'expérience avec des points d'intérêt microtouristiques repérés sur place.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Exemple — La ligne 101, un voyage dans le temps</h2>
+    <p class="pitch">
+      « Si l'on devait raconter la ligne 101 comme un voyage dans le temps, ce serait l'histoire d'une transformation profonde : celle qui fait passer un territoire rural du XIX<sup>e</sup> siècle, façonné par le travail de la terre et de la mer, à une côte balnéaire très prisée de la Belle Époque, puis au théâtre décisif de la Libération en 1944. »
+    </p>
+
+    <div class="chapters">
+      <div class="chapter">
+        <div class="era">Chapitre 1 — avant 1900</div>
+        <h3>La terre et la mer</h3>
+        <p>Hameaux de laboureurs, pêcheurs et sauniers. Fermes normandes, chapelles de marins, chemins de halage : les traces d'une économie rurale et côtière aujourd'hui disparue.</p>
+        <ul>
+          <li>Fermes et corps de bâtiment à colombages</li>
+          <li>Église rurale ou chapelle de marins</li>
+          <li>Toponymes hérités de la pêche et de l'agriculture</li>
+        </ul>
+      </div>
+      <div class="chapter">
+        <div class="era">Chapitre 2 — 1880–1914</div>
+        <h3>La côte balnéaire de la Belle Époque</h3>
+        <p>Le chemin de fer et l'engouement bourgeois pour les bains de mer transforment les mêmes hameaux en stations courues : villas, casinos, digues-promenades.</p>
+        <ul>
+          <li>Villas balnéaires (bow-windows, épis de faîtage)</li>
+          <li>Emplacement d'anciens casinos ou établissements de bains</li>
+          <li>Digue-promenade et gare touristique</li>
+        </ul>
+      </div>
+      <div class="chapter">
+        <div class="era">Chapitre 3 — 1944</div>
+        <h3>Le théâtre de la Libération</h3>
+        <p>Le décor balnéaire bascule brutalement en champ de bataille : plages de débarquement, mur de l'Atlantique, combats de la libération de Caen — avant le retour à la vie civile.</p>
+        <ul>
+          <li>Vestiges du mur de l'Atlantique</li>
+          <li>Monuments et plaques commémoratives</li>
+          <li>Quartiers reconstruits après-guerre</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Structure de l'audioguide (gabarit)</h2>
+    <table>
+      <thead>
+        <tr><th>#</th><th>Arrêt</th><th>Chapitre</th><th>Contenu audio</th><th>Balade à pied</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>Terminus / départ</td><td>Introduction</td><td>Présentation du concept</td><td>—</td></tr>
+        <tr><td>2</td><td>Arrêt rural</td><td>Ch.1</td><td>Micro-histoire agricole / pêche</td><td>Ferme, chapelle</td></tr>
+        <tr><td>3</td><td>Arrêt intermédiaire</td><td>Ch.1 → Ch.2</td><td>Transition vers le tourisme</td><td>—</td></tr>
+        <tr><td>4</td><td>Arrêt balnéaire</td><td>Ch.2</td><td>Micro-histoire villa / casino</td><td>Front de mer</td></tr>
+        <tr><td>5</td><td>Arrêt mémoire</td><td>Ch.3</td><td>Micro-histoire Débarquement</td><td>Vestige, monument</td></tr>
+        <tr><td>6</td><td>Terminus / arrivée</td><td>Conclusion</td><td>Bouclage du récit</td><td>Balade complémentaire</td></tr>
+      </tbody>
+    </table>
+    <p class="note">Gabarit à compléter avec le tracé réel et les arrêts officiels de la ligne 101 Twisto, et avec des contenus historiques validés (archives locales, sociétés d'histoire, offices de tourisme) avant production.</p>
+  </section>
+
+</main>
+
+<footer>
+  Document de travail — voir <code>docs/twisto-caen-bus-musee-ouvert.md</code> pour la version détaillée.
+</footer>
+
+</body>
+</html>
